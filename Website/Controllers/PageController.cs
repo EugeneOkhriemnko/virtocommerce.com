@@ -19,6 +19,7 @@ namespace MarketplaceWeb.Controllers
         public ActionResult DisplayPage(string pageName)
         {
             return View(pageName);
+
         }
     }
 }
